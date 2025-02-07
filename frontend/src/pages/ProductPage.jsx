@@ -17,6 +17,8 @@ function ProductPage() {
   const navigate = useNavigate();
   const { id } = useParams();
 
+
+  
   useEffect(() => {
     fetchProduct(id);
   }, [fetchProduct, id]);
